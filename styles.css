@@ -1,0 +1,16 @@
+:root{
+    --lightgray: #e0e0e0;
+  }
+  body{
+    background: var(--lightgray);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header{
+    align-items: center;
+    background-color: #0007cb;
+    text-decoration-color: white ;
+    
+
+
+  }

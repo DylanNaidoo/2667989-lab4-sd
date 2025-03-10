@@ -26,7 +26,7 @@ document.getElementById("search-btn").addEventListener("click", () => {
                         });
                 });
             } else {
-                document.getElementById("bordering-countries").innerHTML = "<p>No bordering countries.</p>";
+                document.getElementById("bordering-countries").innerHTML = "<p>No bordering countries.</p>"; 
             }
         })
         .catch(error => alert("Country not found!"));
